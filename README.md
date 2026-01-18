@@ -12,7 +12,7 @@ To install HUMAN SDK using [Swift Package Manager](https://github.com/apple/swif
 Alternatively, you can add the following dependency to your `Package.swift` file:
 
 ```swift
-.package(url: "https://github.com/PerimeterX/human-security-ios-sdk-spm.git", from: "4.3.2")
+.package(url: "https://github.com/PerimeterX/human-security-ios-sdk-spm.git", from: "4.3.3")
 ```
 
 ### Why is there a separate repository for Swift Package Manager support?
