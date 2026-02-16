@@ -5,8 +5,8 @@ import PackageDescription
 
 let HUMAN_SDK = Target.binaryTarget(
   name: "HUMAN_SDK",
-  url: "https://github.com/PerimeterX/human-security-ios-sdk/releases/download/4.3.3/HUMAN_SDK.xcframework.zip",
-  checksum: "6e563c3dbd154d7e4c6437427bdfd3db15a8bfb835d7d9aa4af0938cbedd4dff"
+  url: "https://github.com/PerimeterX/human-security-ios-sdk/releases/download/4.3.4/HUMAN_SDK.xcframework.zip",
+  checksum: "e9d3310ab75250a64c49e147c5ef543e6b3417a8747cbfe5fda68af40bcee754"
 )
 
 let package = Package(
