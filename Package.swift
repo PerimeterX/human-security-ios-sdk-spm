@@ -5,13 +5,13 @@ import PackageDescription
 
 let HUMAN_SDK = Target.binaryTarget(
   name: "HUMAN_SDK",
-  url: "https://github.com/PerimeterX/human-security-ios-sdk/releases/download/4.3.4/HUMAN_SDK.xcframework.zip",
-  checksum: "e9d3310ab75250a64c49e147c5ef543e6b3417a8747cbfe5fda68af40bcee754"
+  url: "https://github.com/PerimeterX/human-security-ios-sdk/releases/download/5.0.0/HUMAN_SDK.xcframework.zip",
+  checksum: "23a087340fd928d2de35289336e3c01ba04fbb8426463b95be3cd40104422575"
 )
 
 let package = Package(
   name: "HUMAN_SDK",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v13)],
   products: [
     .library(
         name: "HUMAN_SDK",
